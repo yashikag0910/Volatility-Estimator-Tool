@@ -1,9 +1,12 @@
 Volatility Estimator & Event Impact Analysis
+
 Overview
+
 This project analyzes financial market volatility as a dynamic risk metric by computing and comparing multiple volatility estimators on the same asset. The analysis is performed in Google Colab, making the project fully reproducible without any local setup.
 The project emphasizes how volatility evolves over time and how market uncertainty changes around major macroeconomic events such as CPI releases or central bank announcements.
 
 Key Objectives
+
 Analyze volatility as a time-varying risk measure
 Compute and compare multiple volatility estimators
 Study the effect of macroeconomic events on market risk
@@ -39,6 +42,7 @@ Used to evaluate changes in market uncertainty
 
 
 Results & Insights
+
 Volatility exhibits clustering, confirming non-constant risk
 Short rolling windows respond faster but introduce noise
 Longer windows provide smoother, long-term risk estimates
@@ -48,6 +52,7 @@ These results reinforce that risk perception depends on model choice and market 
 
 
 How to Run (Google Colab)
+
 Open Google Colab
 Upload volatility_estimator.ipynb
 Run all cells from top to bottom
@@ -55,6 +60,7 @@ All required libraries are installed automatically in the Colab environment.
 
 
 Key Learnings
+
 Volatility is dynamic, not static
 Different estimators capture different aspects of risk
 Macro events play a crucial role in uncertainty dynamics
@@ -62,6 +68,7 @@ Visualization is essential for interpreting market behavior
 
 
 Future Improvements
+
 Extend analysis to multiple assets or asset classes
 Add GARCH-based volatility models
 Automate macro event selection
